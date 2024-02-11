@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="This is my opgave" content="width=device-width, initial-scale=1.0">
+
+  <title> Fly with us:) </title>
+  <style>
+
+  </style>
+  <body>
+<header>
+  <h1> Welcome to Fly Airlines</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html"> About Us </a></li>
+      <li><a href="contact.html"> Contact </a> </li>
+      <li><a href="book.html"> Book Flight </a> </li>
+    </ul>
+  </nav>
+</header>
+<main>
+<section>
+  <h2> Book Your Flight</h2>
+  <form action="submit-booking.php" method="post">
+    <label for="from"> From: </label>
+    <input type="text" id="from" name="from"> <br>
+    <label for="to">To: </label>
+    <input type="text" id="to" name="to"> <br>
+    <label for="departure" id> Departure Date <br>
+      <input type="date" id="departure" name="departure"><br>
+      <label for="return"> Return Date: </label><br>
+      <input type="date" id="return" name="return"><br>
+      <input type="submit" value="Search Flights">
+
+</section>
+
+  <section>
+  <h2> About Fly Airlines</h2>
+  <p> We are a leading airline  company offering flights around the world. Our mission is to provide safe, efficient  and comfortable travel for our passengers. </p>
+  </section>
+</main>
+
+<footer>
+<p> Contact us at <a href="fly:info@fly.com"</a>info@fly.com</p>
+<p> &copy; 2024 Fly Airlines</p>
+</footer>
+</body>
+
+<style>
+  body, h1, h2, form, input, button {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  header {
+    background: #005792;
+    color:#ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header {
+    margin: 0;
+  }
+  nav ul{
+    padding: 0;
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+    main{
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+  }
+  form{
+    margin-top: 20px;
+    background: #e7e7e7;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  form input[type="text"],
+  form input[typpe="date"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+
+  form input[type="submit"]{
+    background: #005792;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  form input[type="submit"]:hover{
+    background: #004d66;
+  }
+
+  footer{
+    background: #555555;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+</style>
+</head>
+</html>
